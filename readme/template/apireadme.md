@@ -22,9 +22,7 @@
 
 ------
 -------
-
-
-
+ddd
 
 [[ load:readme/template/section/2-getting-started.md ]]
 [[ load:readme/template/section/3-templates.md ]]
