@@ -36,60 +36,100 @@
 
 ## ➤ Table of Contents
 
-* [➤ Installation](#-installation)
-* [➤ Getting Started (quick)](#-getting-started-quick)
-* [➤ Getting Started (slower)](#-getting-started-slower)
-	* [Blueprint](#blueprint)
-	* [Usage](#usage)
-	* [Configuration](#configuration)
-* [➤ Templates](#-templates)
-	* [Title](#title)
-	* [Logo](#logo)
-	* [Badges](#badges)
-	* [Description](#description)
-	* [Table of Contents](#table-of-contents)
-	* [Contributors](#contributors)
-* [➤ Contributors](#-contributors)
-	* [License](#license)
-* [➤ License](#-license)
-* [➤ Load markdown files](#-load-markdown-files)
-* [➤ Automatic documentation](#-automatic-documentation)
-* [➤ my-button](#-my-button)
-	* [Properties](#properties)
-	* [Slots](#slots)
-* [➤ A bit about this readme](#-a-bit-about-this-readme)
-* [➤ Custom templates](#-custom-templates)
-* [➤ Advanced!](#-advanced)
-	* [Check broken links](#check-broken-links)
-	* [New template syntax](#new-template-syntax)
-	* [Variables](#variables)
-		* [Objects](#objects)
-		* [1D Arrays](#1d-arrays)
-		* [2D Arrays](#2d-arrays)
-	* [Different colored lines](#different-colored-lines)
-	* [Different formatted headings](#different-formatted-headings)
-* [➤ Featured README's](#-featured-readmes)
-* [➤ Future work](#-future-work)
-* [➤ FAQ](#-faq)
-	* [Can I see how my README file is going to look before I commit it?](#can-i-see-how-my-readme-file-is-going-to-look-before-i-commit-it)
-	* [How can I get involved?](#how-can-i-get-involved)
-	* [I already have a large README file - I don't have time to rewrite everything!](#i-already-have-a-large-readme-file---i-dont-have-time-to-rewrite-everything)
-	* [How can I support you?](#how-can-i-support-you)
-* [➤ Contributors](#-contributors-1)
-* [➤ License](#-license-1)
+	* [➤ Descripción general](#-descripcin-general)
+* [➤ Exposición Servidores (URL BASE)](#-exposicin-servidores-url-base)
+* [➤ Repositorio Contrato Open API](#-repositorio-contrato-open-api)
+* [➤ Autenticacion](#-autenticacion)
+				* [1. Gestionar la creación del Cliente CAS](#1-gestionar-la-creacin-del-cliente-cas)
+				* [2. Gestionar la creación del Subscription-Key](#2-gestionar-la-creacin-del-subscription-key)
+	* [➤ Getting Started (quick)](#-getting-started-quick)
+	* [➤ Getting Started (slower)](#-getting-started-slower)
+		* [Blueprint](#blueprint)
+		* [Usage](#usage)
+		* [Configuration](#configuration)
+	* [➤ Templates](#-templates)
+		* [Title](#title)
+		* [Logo](#logo)
+		* [Badges](#badges)
+		* [Description](#description)
+		* [Table of Contents](#table-of-contents)
+		* [Contributors](#contributors)
+	* [➤ Contributors](#-contributors)
+		* [License](#license)
+	* [➤ License](#-license)
+	* [➤ Load markdown files](#-load-markdown-files)
+	* [➤ Automatic documentation](#-automatic-documentation)
+	* [➤ my-button](#-my-button)
+		* [Properties](#properties)
+		* [Slots](#slots)
+	* [➤ A bit about this readme](#-a-bit-about-this-readme)
+	* [➤ Custom templates](#-custom-templates)
+	* [➤ Advanced!](#-advanced)
+		* [Check broken links](#check-broken-links)
+		* [New template syntax](#new-template-syntax)
+		* [Variables](#variables)
+			* [Objects](#objects)
+			* [1D Arrays](#1d-arrays)
+			* [2D Arrays](#2d-arrays)
+		* [Different colored lines](#different-colored-lines)
+		* [Different formatted headings](#different-formatted-headings)
+	* [➤ Featured README's](#-featured-readmes)
+	* [➤ Future work](#-future-work)
+	* [➤ FAQ](#-faq)
+		* [Can I see how my README file is going to look before I commit it?](#can-i-see-how-my-readme-file-is-going-to-look-before-i-commit-it)
+		* [How can I get involved?](#how-can-i-get-involved)
+		* [I already have a large README file - I don't have time to rewrite everything!](#i-already-have-a-large-readme-file---i-dont-have-time-to-rewrite-everything)
+		* [How can I support you?](#how-can-i-support-you)
+	* [➤ Contributors](#-contributors-1)
+	* [➤ License](#-license-1)
 </details>
-termino
 
 
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#installation)
 
-## ➤ Installation
+[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#descripcin-general)
 
-```javascript
-npm install @apinauta/apireadme -D
-```
+## ➤ Descripción general
 
-If you don't want to install anything you can use the `npx @apinauta/apireadme generate` command instead.
+[DESCRIPCION DEL API]
+ 
+
+[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#exposicin-servidores-url-base)
+
+# ➤ Exposición Servidores (URL BASE)
+| Ambiente | URL|
+| :-------- | :------- |
+| Desarrollo | [URL API] |
+| Certificación |  [URL API] |
+| Producción |  [URL API] |
+ 
+
+[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#repositorio-contrato-open-api)
+
+# ➤ Repositorio Contrato Open API
+[REPOSITORIO CONTRATO GIT HUB]
+ 
+
+[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#autenticacion)
+
+# ➤ Autenticacion
+Esta API está protegida por el protocolo Open Authentication (OAuth). Luego del intercambio de token con OAuth, se concede un token OAuth válido para acceder a los diferentes endpoints API en nombre de un usuario de la aplicación autorizada.
+Para ello, se deben generar el Cliente CAS:
+
+##### 1. Gestionar la creación del Cliente CAS
+[Solicitud de Creación de Cliente CAS](https://bcp-ti.atlassian.net/wiki/spaces/privadoAUTH/pages/328730014/Manual+de+ejecuci+n+para+creaci+n+de+clientes+CAS)
+ 
+##### 2. Gestionar la creación del Subscription-Key
+[Solicitud para la creación de una suscripción](https://bcp-ti.atlassian.net/wiki/spaces/AAGDAPUB/pages/364740671/Suscripciones+en+Azure+APIM)
+ 
+
+
+
+------
+-------
+
+
+
+
 
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#getting-started-quick)
 
@@ -287,48 +327,53 @@ The table of contents template adds a table of contents and looks like this:
 
 ## ➤ Table of Contents
 
-* [➤ Table of Contents](#-table-of-contents)
-* [➤ Installation](#-installation)
-* [➤ Getting Started (quick)](#-getting-started-quick)
-* [➤ Getting Started (slower)](#-getting-started-slower)
-	* [Blueprint](#blueprint)
-	* [Usage](#usage)
-	* [Configuration](#configuration)
-* [➤ Templates](#-templates)
-	* [Title](#title)
-	* [Logo](#logo)
-	* [Badges](#badges)
-	* [Description](#description)
-	* [Table of Contents](#table-of-contents)
-	* [Contributors](#contributors)
-* [➤ Contributors](#-contributors)
-	* [License](#license)
-* [➤ License](#-license)
-* [➤ Load markdown files](#-load-markdown-files)
-* [➤ Automatic documentation](#-automatic-documentation)
-* [➤ my-button](#-my-button)
-	* [Properties](#properties)
-	* [Slots](#slots)
-* [➤ A bit about this readme](#-a-bit-about-this-readme)
-* [➤ Custom templates](#-custom-templates)
-* [➤ Advanced!](#-advanced)
-	* [Check broken links](#check-broken-links)
-	* [New template syntax](#new-template-syntax)
-	* [Variables](#variables)
-		* [Objects](#objects)
-		* [1D Arrays](#1d-arrays)
-		* [2D Arrays](#2d-arrays)
-	* [Different colored lines](#different-colored-lines)
-	* [Different formatted headings](#different-formatted-headings)
-* [➤ Featured README's](#-featured-readmes)
-* [➤ Future work](#-future-work)
-* [➤ FAQ](#-faq)
-	* [Can I see how my README file is going to look before I commit it?](#can-i-see-how-my-readme-file-is-going-to-look-before-i-commit-it)
-	* [How can I get involved?](#how-can-i-get-involved)
-	* [I already have a large README file - I don't have time to rewrite everything!](#i-already-have-a-large-readme-file---i-dont-have-time-to-rewrite-everything)
-	* [How can I support you?](#how-can-i-support-you)
-* [➤ Contributors](#-contributors-1)
-* [➤ License](#-license-1)
+	* [➤ Table of Contents](#-table-of-contents)
+	* [➤ Descripción general](#-descripcin-general)
+* [➤ Exposición Servidores (URL BASE)](#-exposicin-servidores-url-base)
+* [➤ Repositorio Contrato Open API](#-repositorio-contrato-open-api)
+* [➤ Autenticacion](#-autenticacion)
+				* [1. Gestionar la creación del Cliente CAS](#1-gestionar-la-creacin-del-cliente-cas)
+				* [2. Gestionar la creación del Subscription-Key](#2-gestionar-la-creacin-del-subscription-key)
+	* [➤ Getting Started (quick)](#-getting-started-quick)
+	* [➤ Getting Started (slower)](#-getting-started-slower)
+		* [Blueprint](#blueprint)
+		* [Usage](#usage)
+		* [Configuration](#configuration)
+	* [➤ Templates](#-templates)
+		* [Title](#title)
+		* [Logo](#logo)
+		* [Badges](#badges)
+		* [Description](#description)
+		* [Table of Contents](#table-of-contents)
+		* [Contributors](#contributors)
+	* [➤ Contributors](#-contributors)
+		* [License](#license)
+	* [➤ License](#-license)
+	* [➤ Load markdown files](#-load-markdown-files)
+	* [➤ Automatic documentation](#-automatic-documentation)
+	* [➤ my-button](#-my-button)
+		* [Properties](#properties)
+		* [Slots](#slots)
+	* [➤ A bit about this readme](#-a-bit-about-this-readme)
+	* [➤ Custom templates](#-custom-templates)
+	* [➤ Advanced!](#-advanced)
+		* [Check broken links](#check-broken-links)
+		* [New template syntax](#new-template-syntax)
+		* [Variables](#variables)
+			* [Objects](#objects)
+			* [1D Arrays](#1d-arrays)
+			* [2D Arrays](#2d-arrays)
+		* [Different colored lines](#different-colored-lines)
+		* [Different formatted headings](#different-formatted-headings)
+	* [➤ Featured README's](#-featured-readmes)
+	* [➤ Future work](#-future-work)
+	* [➤ FAQ](#-faq)
+		* [Can I see how my README file is going to look before I commit it?](#can-i-see-how-my-readme-file-is-going-to-look-before-i-commit-it)
+		* [How can I get involved?](#how-can-i-get-involved)
+		* [I already have a large README file - I don't have time to rewrite everything!](#i-already-have-a-large-readme-file---i-dont-have-time-to-rewrite-everything)
+		* [How can I support you?](#how-can-i-support-you)
+	* [➤ Contributors](#-contributors-1)
+	* [➤ License](#-license-1)
 
 Use the `{{ template:toc }}` placeholder to stamp it. It has been scientifically proven that this template will save you approximately 392.3 hours during your life-time. Seriously.
 

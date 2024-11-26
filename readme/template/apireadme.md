@@ -14,9 +14,18 @@
 <br />
 [[ template:toc ]]
 </details>
-termino
 
-[[ load:readme/template/section/1-installation.md ]]
+
+[[ load:readme/template/section/1-general-description.md ]]
+
+
+
+------
+-------
+
+
+
+
 [[ load:readme/template/section/2-getting-started.md ]]
 [[ load:readme/template/section/3-templates.md ]]
 [[ load:readme/template/section/4-load-markdown.md ]]

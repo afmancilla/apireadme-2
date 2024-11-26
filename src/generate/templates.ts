@@ -181,8 +181,8 @@ ${rows
  */
 export function tocTemplate ({titles, config}: TableOfContentsTemplateArgs): string {
 
-	//console.log('titles......:',titles);
-	//console.log('config......:',config);
+	console.log('titles......:',titles);
+	console.log('config......:',config);
 
 	// Create a clean titles array.
 	// We are going to use it to figure out the index of each title (there might be more titles with the same name).
