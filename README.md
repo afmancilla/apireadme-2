@@ -99,7 +99,7 @@ assaas
 
 [](#descripcion-general)
 
-## ➤ Descripción general
+## ➤ Descripcion general
 
 aqui va la descripcion de la API
 
@@ -110,4 +110,5 @@ aqui va la descripcion de la API
 - [First Item](#item-two)
 - [Second Item](#item-three)
 
-## Descripción general
+<a id="descripcion-general"></a>
+## Descripcion general
