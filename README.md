@@ -11,15 +11,15 @@ First item content goes here
 <a id="item-three"></a>
 ### Second Item
 Second item content goes here
-<ul>
+
 <summary>📖 Indice </summary>
 
 [](#table-of-contents)
 
 ## ➤ Table of Contents
-<li>
-* [➤ Descripción general](#descripcion-general)	
-</li>
+
+[Descripción general](#descripcion-general)	
+
 
 <li>
 * [➤ secion2](#seccion2)	
@@ -38,7 +38,7 @@ Second item content goes here
 <li>
 * [➤ seccion6](#seccion6)
 </li>
-</ul>
+
 
 
 
