@@ -21,13 +21,13 @@ Second item content goes here
 [Descripción general](#descripcion-general)	
 
 
-<li>
-* [➤ secion2](#seccion2)	
-</li>
 
-<li>
+* [➤ secion2](#seccion2)	
+
+
+
 * [➤ seccion3](#seccion3)	
-</li>
+
 
 <li>
 * [➤ seccion4](#seccion4)	
@@ -97,7 +97,7 @@ assaas
 ## ➤ secion8
 
 
-[](#descripcin-general)
+[](#descripcion-general)
 
 ## ➤ Descripción general
 
@@ -110,4 +110,4 @@ aqui va la descripcion de la API
 - [First Item](#item-two)
 - [Second Item](#item-three)
 
-
+## Descripción general
