@@ -18,30 +18,25 @@ Second item content goes here
 
 ## ➤ Table of Contents
 <li>
-* [➤ Descripción general](#descripcin-general)	
+* [➤ Descripción general](#descripcion-general)	
 </li>
 
 <li>
-* [➤ secion2](#-secion2)	
+* [➤ secion2](#seccion2)	
 </li>
 
 <li>
-* [➤ seccion3](#-seccion3)	
+* [➤ seccion3](#seccion3)	
 </li>
 
 <li>
-* [➤ seccion4](#-seccion4)	
-</li>
-
-* [➤ Descripción general](#-descripcin-general)
-* [➤ secion2](#-secion2)
-* [➤ seccion3](#-seccion3)
-* [➤ seccion4](#-seccion4)
-<li>
-* [➤ seccion7](#-seccion7)
+* [➤ seccion4](#seccion4)	
 </li>
 <li>
-* [➤ secion8](#-secion8)
+* [➤ seccion5](#seccion5)
+</li>
+<li>
+* [➤ seccion6](#seccion6)
 </li>
 </ul>
 
@@ -62,9 +57,9 @@ Second item content goes here
 
 
 
-[](#secion2)
+[](#seccion2)
 
-## ➤ secion2
+## seccion2
 ssss
 sssss
 
@@ -73,7 +68,7 @@ ss
 
 [](#seccion3)
 
-## ➤ seccion3
+## seccion3
 
 dddd
 
